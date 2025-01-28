@@ -19,10 +19,10 @@
 //console.log(myarr)
 
 
-//const newarr = myarr.join()     //join will be convert array to String datatypes
+const newarr = myarr.join()     //join will be convert array to String datatypes
 
-//console.log(myarr)
-//console.log(typeof newarr)
+console.log(myarr)
+console.log(typeofnewarr)
 
 // slice and splice
 
