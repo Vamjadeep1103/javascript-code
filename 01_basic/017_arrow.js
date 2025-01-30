@@ -1,0 +1,3 @@
+let hello ;
+hello = (val) => "Hello " + val;
+console.log(hello);
