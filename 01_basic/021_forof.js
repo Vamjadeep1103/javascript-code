@@ -19,17 +19,17 @@ myMap.set("fr","france")
 //for of loop in map//
 
 for(const [key,value] of myMap){
-   // console.log(key,"=",value)
-}
-
-
-
-const myobject = {
-    game1: 'NFS',                       //these type syntax will be not allowed in loops//
-    game2: 'Spiderman'
-}
-for(const [key,value] of myobject){
     console.log(key,"=",value)
-
 }
+
+
+
+// const myobject = {
+//     game1: 'NFS',                       //these type syntax will be not allowed in loops//
+//     game2: 'Spiderman'
+// }
+// for(const [key,value] of myobject){
+//     console.log(key,"=",value)
+
+// }
 
