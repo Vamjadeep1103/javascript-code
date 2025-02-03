@@ -22,7 +22,19 @@ let books =[
 ]
 //let userbooks = books.filter ((bk) => bk.Genre === "Fiction")
 let userbooks1 = books.filter((bk) => {return bk.Publish >= 1950})
-
-
 console.log(userbooks1);
+
+
+// map() using in javascript //
+
+const mynumber = [1,2,3,4,5,6,7,8,9,10]
+
+//const newnumber = mynumber.map((num) =>{return num + 10})
+const newnumber  = mynumber.map((num) => num * 10)
+                            .map((num) => num+1)
+                            .filter((num) => num > 40)
+                            .reverse()
+console.log(newnumber);
+
+
 
