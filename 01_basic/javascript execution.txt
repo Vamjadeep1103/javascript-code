@@ -1,0 +1,45 @@
+//  Javascript execution Context //
+
+1.{}  - global execution Context
+2.functiion execution Context
+3.eval execution Context
+
+//some simple example// 
+
+//
+
+let val1=10
+let val2=5
+function addnum(num1,num2){
+    let total = num1 + num2
+    return total
+}
+let result1 = addNum(val1,val2)
+let result2 = addNum(10,2)
+
+\\ -----------------------\\
+
+---(1) global execution---
+(this)
+
+---(2) memory phase---
+(val1 = undefined)
+(val2 = undefined)
+total is also undefined
+(addnum = definition)
+(result1 = definition)
+(result2 = definition)
+
+---(3)execution phase---
+
+val1 =10
+val2 =5
+
+addNum =newvariable environment + execution thread ///once execute///
+
+
+
+////----------call stack in Javascript-------//
+
+The call stack is a crucial concept in JavaScript’s runtime environment, representing the
+~
