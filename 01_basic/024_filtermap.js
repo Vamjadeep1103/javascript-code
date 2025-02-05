@@ -38,9 +38,6 @@ const newnumber  = mynumber.map((num) => num * 10)
                             .reverse()
  console.log(newnumber);
 
-
-
-
 // -------reduce() function use in js ------//
 const myNums  = [1,2,3]
  const myTotal = myNums.reduce(function(accumulator,currentvalue){
